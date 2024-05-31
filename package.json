@@ -1,0 +1,36 @@
+{
+  "name": "cli",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "cli",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "sinon": "^18.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle *.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "bare-crypto": "^1.1.0",
+    "bare-events": "^2.3.1",
+    "bare-readline": "^1.0.4",
+    "bare-tty": "^3.3.1",
+    "commander": "github:Didericis/bare-commander.js",
+    "hypercore-crypto": "^3.4.2",
+    "hyperswarm": "^4.7.14",
+    "js-yaml": "^4.1.0",
+    "marked": "^12.0.2",
+    "mdast": "^3.0.0",
+    "mdast-util-from-markdown": "^2.0.1",
+    "mdast-util-frontmatter": "^2.0.1",
+    "mdast-util-gfm": "^3.0.0",
+    "micromark-extension-gfm": "^3.0.0",
+    "unist-util-visit": "^5.0.0"
+  }
+}
